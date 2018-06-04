@@ -1,3 +1,5 @@
+- show page text block
+- index page hover + text
 - Use Portfolio instead of Work?
 
 - https://placeholder.com/
