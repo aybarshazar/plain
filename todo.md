@@ -1,4 +1,6 @@
 - index page hover + text
+- responsive typography: https://getbootstrap.com/docs/4.1/content/typography/
+- section, article, footer, address tags. any other semantic html tag we need?
 - favicon
 - Use Portfolio instead of Work?
 
