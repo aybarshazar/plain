@@ -1,5 +1,5 @@
-- show page text block
 - index page hover + text
+- favicon
 - Use Portfolio instead of Work?
 
 - https://placeholder.com/
