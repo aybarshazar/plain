@@ -1,4 +1,29 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-}
+  font-weight: normal; }
+
+.tile {
+  position: relative;
+  display: block; }
+  .tile .project-title-container {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .tile .project-title-container p {
+      text-align: center;
+      color: #FFF;
+      font-weight: bold;
+      letter-spacing: 0.08em;
+      margin: 15px;
+      padding: 0px; }
+  .tile:hover {
+    background: #000; }
+    .tile:hover .project-image {
+      opacity: 0.6; }
+    .tile:hover .project-title-container {
+      visibility: visible; }
+
+/*# sourceMappingURL=styles.css.map */

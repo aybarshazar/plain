@@ -1,0 +1,71 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.tile {
+  position: relative;
+  display: block;
+
+  .project-title-container {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    p {
+      text-align: center;
+      color: #FFF;
+      font-weight: bold;
+      letter-spacing: 0.08em;
+      margin: 15px;
+      padding: 0px;
+    }
+  }
+
+  &:hover {
+    background: #000;
+
+    .project-image {
+      opacity: 0.6;
+    }
+
+    .project-title-container {
+      visibility: visible;
+    }
+  }
+}
+
+// show page
+//
+// h2 {
+//   font-family: 'Roboto', sans-serif;
+// }
+//
+// p {
+//   font-family: 'Roboto Slab', serif;
+// }
+
+// html {
+//   font-size: 1rem;
+// }
+//
+// @include media-breakpoint-up(sm) {
+//   html {
+//     font-size: 1.2rem;
+//   }
+// }
+//
+// @include media-breakpoint-up(md) {
+//   html {
+//     font-size: 1.4rem;
+//   }
+// }
+//
+// @include media-breakpoint-up(lg) {
+//   html {
+//     font-size: 1.6rem;
+//   }
+// }

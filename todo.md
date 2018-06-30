@@ -7,13 +7,14 @@
 - Use Portfolio instead of Work?
 - Use sass?
   - Can move bootstrap classes from html to stylesheet (with sass extend) if any external styles are applied.
-  - Can modify bootstrap media query breakpoints
-  - https://sass-lang.com/install
+  - Can modify bootstrap media query 
   - https://bootstrapbay.com/blog/customize-bootstrap/
   - https://www.sitepoint.com/sass-semantically-extend-bootstrap/
   - https://ianbriggs.wordpress.com/2014/08/10/the-sassy-way-to-extend-bootstrap/
   - https://getbootstrap.com/docs/4.1/getting-started/theming/
   - https://github.com/twbs/bootstrap/blob/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16/dist/css/bootstrap-grid.css
+
+- autoprefixer?
 
 - html5 outliner
   - https://validator.w3.org/nu/
